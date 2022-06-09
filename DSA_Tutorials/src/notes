@@ -1,3 +1,31 @@
-different data structures
+Data structures
+	these are the way data is stored on computer memory, knowing the best data structure for your case will help achieve efficiency
+Algorithms
+	Alorightm is a flow including steps to solve a given problem, here we break the problem into small parts and work on them, at last we combine the result
 
-1. Arrays
+Recursion
+	its a way of solving problems where a method calls itself for no of times
+	it takes a lot of memory on stack because each method call and its results are stored on stack till last recursion call
+	
+when to use recursion
+	when problem can be broken down into parts
+	when we are not worried about how much time it takes to run our code
+	when we need fast solution instead of a efficient one
+	when traversing a tree
+	
+when to avoid recursion
+	when we need to consider how much time a program takes to complete
+	when we want to write program thats memory efficient
+
+steps to write recursion
+1. the actual flow
+2. the exit condition
+3. the constraint
+
+programs
+	factorial
+	fibonacci numbers - a number is sum of last 2 numbers, series starts with 0,1
+	0,1,1,2,3,5,8,13.....
+	
+
+	

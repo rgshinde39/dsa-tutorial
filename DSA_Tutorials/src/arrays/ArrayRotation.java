@@ -1,10 +1,11 @@
+package arrays;
 
-public class Arrays {
+public class ArrayRotation {
 
 	public static void main(String[] args) {
+		ArrayRotation arrays = new ArrayRotation();
 		int[] arr = {1,2,3,4,5};
 		int[] arr2 = {1,2,3,4,5};
-		Arrays arrays = new Arrays();
 		arrays.rotateArray(arr, 1, "left");
 		arrays.printArray(arr);
 		
@@ -57,18 +58,5 @@ public class Arrays {
 			}
 		}
 		System.out.println("array rotated to right");
-	}
-
-	static void recursiveMethod(int n) {
-		//this will be printed as usual
-		System.out.println(n);
-		if(n < 1) {
-			System.out.println("n is less than 1");
-		} else {
-			recursiveMethod(n - 1);
-			
-			//this is printed after all recursions are called
-			System.out.println(n);
-		}
 	}
 }
