@@ -24,7 +24,7 @@ public class RecursionPrograms {
 		}
 	}
 	
-	public int getFactorial(int n) {
+	public int getFactorial(int n) {//M(n)
 		
 		//step 3: the constraint
 		if(n < 0) {
@@ -36,7 +36,9 @@ public class RecursionPrograms {
 		}
 		
 		//step 1: the actual flow
-		return n * getFactorial(n - 1);
+		
+		//time comp M(n)=O(1) + M(n-1), at last we get O(n)
+		return n * getFactorial(n - 1);//M(n-1)
 	}
 	
 	public int fibonacci(int n) {
@@ -51,6 +53,8 @@ public class RecursionPrograms {
 		}
 		
 		//step 1: the actual flow
+		
+		//time comp O(2^n), since the method calls itself twice
 		return fibonacci(n - 1) + fibonacci(n - 2);
 	}
 }

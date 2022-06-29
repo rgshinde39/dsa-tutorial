@@ -3,7 +3,7 @@ package recursion;
 public class SumOfDigits {
 
 	//print sum of digits in a integer for ex. 10 = 1, 41 = 5, 659=20
-	
+	//f(n) = n%10 +f(n/10)
 	public static void main(String[] args) {
 		int number = 659;
 		System.out.println("som of digits for "+number+" is "+sumOfDigits(number));
